@@ -1,0 +1,54 @@
+body {
+	background: black;
+}
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 325px;
+	margin: 0;
+	padding: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-ritght {
+	padding: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input {
+	border: none;
+	border-bottom: solid rgb(194, 187, 187);
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	margin-top: 5px;
+}
+::placeholder {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: rgb(194, 187, 187);
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background: rgb(184, 180, 180);
+	padding: 5px;
+}
